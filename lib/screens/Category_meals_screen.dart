@@ -67,7 +67,7 @@ class _CategoryMealsScreenState extends State<CategoryMealsScreen> {
               duration: displayMeals.elementAt(index).duration,
               affordability: displayMeals.elementAt(index).affordability,
               complexity: displayMeals.elementAt(index).complexity,
-              removeItem: _removeMeal,
+              //    removeItem: _removeMeal,
             );
           },
           itemCount: displayMeals.length,
